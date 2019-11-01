@@ -1,0 +1,215 @@
+.kanj_list {
+    padding-top: 100px;
+    .w {
+        .product {
+            .breadcrumb {
+                margin-bottom: 30px;
+                li {
+                    display: inline-block;
+                    font-size: 14px;
+                    color: #333;
+                    span {
+                        padding: 0 5px;
+                        color: #ccc;
+                    }
+                }
+            }
+            .product_page {
+                // width: 665px;
+                height: 540px;
+                float: left;
+                background-color: #fff;
+                .row {
+                    #box {
+                        float: left;
+                        width: 540px;
+                        position: relative;
+                        margin-left: 50px;
+                        border: 1px solid #b0b0b0;
+                    }
+                    #top {
+                        width: 540px;
+                        height: 540px;
+                        position: relative;
+                    }
+                    #smallImg {
+                        width: 540px;
+                        height: 540px;
+                    }
+                    #shadow {
+                        position: absolute;
+                        height: 180px;
+                        width: 180px;
+                        background-color: rgba(110, 110, 110, 0.1);
+                        left: 0;
+                        top: 0;
+                        display: none;
+                    }
+                    .updown {
+                        float: left;
+                        p {
+                            text-align: center;
+                            margin-top: 28px;
+                        }
+                    }
+                    #nav {
+                        // float: left;
+                        width: 74px;
+                        overflow: hidden;
+                    }
+                    #nav li {
+                        // float: left;
+                        margin-top: 10px;
+                        width: 72px;
+                        height: 72px;
+                        border: #b0b0b0 1px solid;
+                    }
+                    #nav li img {
+                        width: 72px;
+                        height: 72px;
+                    }
+                    #bigShadow {
+                        position: absolute;
+                        height: 300px;
+                        width: 300px;
+                        left: 555px;
+                        top: 0;
+                        overflow: hidden;
+                        display: none;
+                        z-index: 10;
+                        background: #fff;
+                        box-shadow: 0 0 10px #eee;
+                    }
+                    #bigImg {
+                        width: 900px;
+                        height: 900px;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                    }
+                    .col_xs_5 {
+                        float: left;
+                        padding-right: 15px;
+                        padding-left: 15px;
+                        position: relative;
+                        h3 {
+                            font-size: 20px;
+                            font-weight: 600;
+                            margin-bottom: 10px;
+                            color: black;
+                        }
+                        .attr {
+                            font-size: 14px;
+                            color: #333;
+                        }
+                        .price_availability_block {
+                            line-height: 31px;
+                            .price {
+                                color: #ed1c24;
+                                font-size: 24px;
+                                span {
+                                    font-size: 14px;
+                                    text-decoration: line-through;
+                                    color: #b0b0b0;
+                                }
+                            }
+                            .pruchase {
+                                float: right;
+                                height: 20px;
+                                color: #767676;
+                                span {
+                                    font-size: 14px;
+                                    i {
+                                        margin-right: 5px;
+                                    }
+                                }
+                            }
+                        }
+                        .addressWrap {
+                            .addressInfo {
+                                font-size: 14px;
+                                color: #333;
+                                // .distribution {}
+                                .addressInfoName {
+                                    margin: 0 10px;
+                                    display: inline-block;
+                                    span {
+                                        margin-right: 10px;
+                                    }
+                                }
+                                .addressChoose {
+                                    display: inline-block;
+                                }
+                                .address-cmbform {
+                                    // display: none;
+                                    position: absolute;
+                                    top: 110px;
+                                    right: 100px;
+                                    .form-control {
+                                        width: 100px;
+                                        height: 32px;
+                                        padding: 5px 10px;
+                                        border: 1px solid #eee;
+                                        border-radius: 2px;
+                                    }
+                                }
+                                .myStock {
+                                    margin-left: 10px;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                        .product_page_cart {
+                            margin-top: 40px;
+                            .product-quantity {
+                                width: 170px;
+                                height: 25px;
+                                // background-color: #0ff;
+                                .dl-horizontal {
+                                    float: left;
+                                    width: 45px;
+                                    dt {
+                                        color: #333;
+                                        font-size: 14px;
+                                        font-weight: 700;
+                                        line-height: 25px;
+                                    }
+                                }
+                                .spinner-buttons {
+                                    float: left;
+                                    .layui-btn {
+                                        width: 25px;
+                                        height: 25px;
+                                        line-height: 25px;
+                                    }
+                                }
+                                .spinner-input {
+                                    float: left;
+                                    width: 66px;
+                                    height: 21px;
+                                    text-align: center;
+                                }
+                            }
+                            .row {
+                                margin-top: 30px;
+                                padding: 15px 0;
+                                .buy {
+                                    width: 190px;
+                                    height: 40px;
+                                    background-color: red;
+                                    &:hover {
+                                        color: #fff !important;
+                                    }
+                                }
+                                .addcart {
+                                    width: 190px;
+                                    height: 40px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

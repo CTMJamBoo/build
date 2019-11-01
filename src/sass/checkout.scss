@@ -1,0 +1,260 @@
+.checkout-inner {
+    margin-top: 100px;
+    .w {
+        .breadcrumb {
+            margin-bottom: 30px;
+            li {
+                display: inline-block;
+                font-size: 14px;
+                color: #333;
+                span {
+                    padding: 0 5px;
+                    color: #ccc;
+                }
+            }
+        }
+        /**/
+        .page-header {
+            padding-bottom: 9px;
+            margin: 40px 0 20px;
+            border-bottom: 1px solid #eee;
+            h1 {
+                font-size: 18px;
+                font-weight: 900;
+                color: black;
+                small {
+                    font-weight: 400;
+                    line-height: 1;
+                    color: #777;
+                }
+            }
+        }
+        .checkout-container {
+            .panel-heading {
+                background-color: #efefef;
+                height: 31px;
+                line-height: 52px;
+                color: #8a6d3b;
+                border-color: #faebcc;
+                padding: 10px 15px;
+                border-bottom: 1px solid transparent;
+                border-top-left-radius: 1px;
+                border-top-right-radius: 1px;
+                h3 {
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 32px;
+                }
+            }
+            .panel-body {
+                // width: 100%;
+                font-size: 14px;
+                padding: 15px;
+                border-bottom: 1px solid #ccc;
+                // .btn {
+                //     width: 100%;
+                //     padding: 6px 12px;
+                //     border: 1px solid transparent;
+                //     border-radius: 2px;
+                //     text-align: center;
+                //     cursor: pointer;
+                //     color: #fff;
+                // }
+                .addressWrap {
+                    .addressInfo {
+                        font-size: 14px;
+                        color: #333;
+                        // .distribution {}
+                        .addressInfoName {
+                            margin: 0 10px;
+                            display: inline-block;
+                            span {
+                                margin-right: 10px;
+                            }
+                        }
+                        .addressChoose {
+                            display: inline-block;
+                        }
+                        .address-cmbform {
+                            // display: none;
+                            position: absolute;
+                            top: 110px;
+                            right: 100px;
+                            .form-control {
+                                width: 100px;
+                                height: 32px;
+                                padding: 5px 10px;
+                                border: 1px solid #eee;
+                                border-radius: 2px;
+                            }
+                        }
+                        .myStock {
+                            margin-left: 10px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+            .myDistribution {
+                font-size: 14px;
+                color: #333;
+                padding: 35px 35px 20px 35px;
+                border-top: 1px solid #dddddd;
+                h3 {
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                ul {
+                    margin-top: 30px;
+                    li {
+                        width: 100px;
+                        height: 30px;
+                        float: left;
+                        margin-left: 15px;
+                        padding: 0 5px;
+                        line-height: 25px;
+                        cursor: pointer;
+                        position: relative;
+                        border: 2px solid #da2a2a;
+                        img {
+                            line-height: 25px;
+                            vertical-align: middle;
+                            // display: inline-block;
+                            position: absolute;
+                            top: 50%;
+                            margin-top: -11px;
+                        }
+                        span {
+                            margin-left: 18px;
+                        }
+                    }
+                }
+            }
+            .checkout-cart {
+                thead {
+                    th {
+                        text-align: center;
+                        padding-right: 15px;
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+        .addInvoice {
+            margin-top: 10px;
+            .col-xs-1 {
+                width: 90px;
+            }
+            .col-xs-1,
+            .col-xs-3 {
+                float: left;
+            }
+            .col-xs-4 {
+                button {
+                    margin-right: 15px;
+                    margin-left: 15px;
+                }
+            }
+        }
+        .checkout-calculate {
+            border-top: 1px solid #dddddd;
+            border-bottom: 1px solid #dddddd;
+            padding: 35px 35px 20px 35px;
+            .row {
+                margin-right: -15px;
+                margin-left: -15px;
+                .col-xs-7 {
+                    float: left;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    font-size: 14px;
+                    width: 582px;
+                    // height: 54px;
+                    h3 {
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                    }
+                    textarea {
+                        width: 552px;
+                        padding: 6px 12px;
+                        font-size: 14px;
+                        color: #555;
+                        background-color: #fff;
+                        border: 1px solid #ccc;
+                        border-radius: 2px;
+                    }
+                }
+                .col-xs-5 {
+                    float: right;
+                    margin-right: -15px;
+                    margin-left: -15px;
+                    .dl-horizontal {
+                        margin-bottom: 20px;
+                        dd {
+                            text-align: right;
+                            margin-left: 180px;
+                        }
+                        dt {
+                            float: left;
+                            width: 160px;
+                            text-align: right;
+                            font-weight: 700;
+                            color: #333;
+                        }
+                    }
+                }
+            }
+        }
+        .checkout-footer {
+            padding: 35px 0;
+            text-align: right;
+            .dingdan {
+                background-color: red;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.checkout-cart {
+    tbody {
+        tr:last-child {
+            margin-left: 15px;
+        }
+        td {
+            padding-left: 53px;
+            .d {
+                float: left;
+                padding-right: 15px;
+                padding-left: 53px;
+                img {
+                    width: 59px;
+                    height: 59px;
+                }
+            }
+            span {
+                width: 100%;
+                color: #ed1c24;
+            }
+            .number-x {
+                margin-left: 25px;
+                color: #333;
+            }
+            .cmb {
+                margin-left: 35px;
+            }
+        }
+    }
+}
+
+.order-price {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.order-red {
+    color: #ed1c24;
+    font-size: 18px;
+    margin-top: 10px;
+}

@@ -1,0 +1,186 @@
+.checkout-inner {
+  margin-top: 100px; }
+  .checkout-inner .w .breadcrumb {
+    margin-bottom: 30px; }
+    .checkout-inner .w .breadcrumb li {
+      display: inline-block;
+      font-size: 14px;
+      color: #333; }
+      .checkout-inner .w .breadcrumb li span {
+        padding: 0 5px;
+        color: #ccc; }
+  .checkout-inner .w .page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee; }
+    .checkout-inner .w .page-header h1 {
+      font-size: 18px;
+      font-weight: 900;
+      color: black; }
+      .checkout-inner .w .page-header h1 small {
+        font-weight: 400;
+        line-height: 1;
+        color: #777; }
+  .checkout-inner .w .checkout-container .panel-heading {
+    background-color: #efefef;
+    height: 31px;
+    line-height: 52px;
+    color: #8a6d3b;
+    border-color: #faebcc;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    -webkit-border-top-left-radius: 1px;
+            border-top-left-radius: 1px;
+    -webkit-border-top-right-radius: 1px;
+            border-top-right-radius: 1px; }
+    .checkout-inner .w .checkout-container .panel-heading h3 {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 32px; }
+  .checkout-inner .w .checkout-container .panel-body {
+    font-size: 14px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc; }
+    .checkout-inner .w .checkout-container .panel-body .addressWrap .addressInfo {
+      font-size: 14px;
+      color: #333; }
+      .checkout-inner .w .checkout-container .panel-body .addressWrap .addressInfo .addressInfoName {
+        margin: 0 10px;
+        display: inline-block; }
+        .checkout-inner .w .checkout-container .panel-body .addressWrap .addressInfo .addressInfoName span {
+          margin-right: 10px; }
+      .checkout-inner .w .checkout-container .panel-body .addressWrap .addressInfo .addressChoose {
+        display: inline-block; }
+      .checkout-inner .w .checkout-container .panel-body .addressWrap .addressInfo .address-cmbform {
+        position: absolute;
+        top: 110px;
+        right: 100px; }
+        .checkout-inner .w .checkout-container .panel-body .addressWrap .addressInfo .address-cmbform .form-control {
+          width: 100px;
+          height: 32px;
+          padding: 5px 10px;
+          border: 1px solid #eee;
+          -webkit-border-radius: 2px;
+                  border-radius: 2px; }
+      .checkout-inner .w .checkout-container .panel-body .addressWrap .addressInfo .myStock {
+        margin-left: 10px;
+        font-weight: 600; }
+  .checkout-inner .w .checkout-container .myDistribution {
+    font-size: 14px;
+    color: #333;
+    padding: 35px 35px 20px 35px;
+    border-top: 1px solid #dddddd; }
+    .checkout-inner .w .checkout-container .myDistribution h3 {
+      font-size: 16px;
+      font-weight: 600; }
+    .checkout-inner .w .checkout-container .myDistribution ul {
+      margin-top: 30px; }
+      .checkout-inner .w .checkout-container .myDistribution ul li {
+        width: 100px;
+        height: 30px;
+        float: left;
+        margin-left: 15px;
+        padding: 0 5px;
+        line-height: 25px;
+        cursor: pointer;
+        position: relative;
+        border: 2px solid #da2a2a; }
+        .checkout-inner .w .checkout-container .myDistribution ul li img {
+          line-height: 25px;
+          vertical-align: middle;
+          position: absolute;
+          top: 50%;
+          margin-top: -11px; }
+        .checkout-inner .w .checkout-container .myDistribution ul li span {
+          margin-left: 18px; }
+  .checkout-inner .w .checkout-container .checkout-cart thead th {
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .checkout-inner .w .addInvoice {
+    margin-top: 10px; }
+    .checkout-inner .w .addInvoice .col-xs-1 {
+      width: 90px; }
+    .checkout-inner .w .addInvoice .col-xs-1,
+    .checkout-inner .w .addInvoice .col-xs-3 {
+      float: left; }
+    .checkout-inner .w .addInvoice .col-xs-4 button {
+      margin-right: 15px;
+      margin-left: 15px; }
+  .checkout-inner .w .checkout-calculate {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 35px 35px 20px 35px; }
+    .checkout-inner .w .checkout-calculate .row {
+      margin-right: -15px;
+      margin-left: -15px; }
+      .checkout-inner .w .checkout-calculate .row .col-xs-7 {
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 14px;
+        width: 582px; }
+        .checkout-inner .w .checkout-calculate .row .col-xs-7 h3 {
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 10px; }
+        .checkout-inner .w .checkout-calculate .row .col-xs-7 textarea {
+          width: 552px;
+          padding: 6px 12px;
+          font-size: 14px;
+          color: #555;
+          background-color: #fff;
+          border: 1px solid #ccc;
+          -webkit-border-radius: 2px;
+                  border-radius: 2px; }
+      .checkout-inner .w .checkout-calculate .row .col-xs-5 {
+        float: right;
+        margin-right: -15px;
+        margin-left: -15px; }
+        .checkout-inner .w .checkout-calculate .row .col-xs-5 .dl-horizontal {
+          margin-bottom: 20px; }
+          .checkout-inner .w .checkout-calculate .row .col-xs-5 .dl-horizontal dd {
+            text-align: right;
+            margin-left: 180px; }
+          .checkout-inner .w .checkout-calculate .row .col-xs-5 .dl-horizontal dt {
+            float: left;
+            width: 160px;
+            text-align: right;
+            font-weight: 700;
+            color: #333; }
+  .checkout-inner .w .checkout-footer {
+    padding: 35px 0;
+    text-align: right; }
+    .checkout-inner .w .checkout-footer .dingdan {
+      background-color: red;
+      color: #fff; }
+
+.checkout-cart tbody tr:last-child {
+  margin-left: 15px; }
+
+.checkout-cart tbody td {
+  padding-left: 53px; }
+  .checkout-cart tbody td .d {
+    float: left;
+    padding-right: 15px;
+    padding-left: 53px; }
+    .checkout-cart tbody td .d img {
+      width: 59px;
+      height: 59px; }
+  .checkout-cart tbody td span {
+    width: 100%;
+    color: #ed1c24; }
+  .checkout-cart tbody td .number-x {
+    margin-left: 25px;
+    color: #333; }
+  .checkout-cart tbody td .cmb {
+    margin-left: 35px; }
+
+.order-price {
+  font-size: 18px;
+  margin-top: 10px; }
+
+.order-red {
+  color: #ed1c24;
+  font-size: 18px;
+  margin-top: 10px; }

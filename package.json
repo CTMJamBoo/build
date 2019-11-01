@@ -1,0 +1,31 @@
+{
+    "name": "kangj",
+    "version": "1.0.0",
+    "description": "{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@gitee.com:ctmjamboo/kangJ.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "browser-sync": "^2.26.7",
+        "del": "^5.0.0",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^7.0.0",
+        "gulp-babel": "^7.0.1",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-imagemin": "^6.1.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.2"
+    }
+
+}

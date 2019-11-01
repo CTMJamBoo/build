@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>结算页面</title>
+    <link rel="stylesheet" href="../lib/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/pc-reset.min.css">
+    <link rel="stylesheet" href="../css/checkout.min.css">
+</head>
+
+<body>
+
+    <div id='head'></div>
+    <div class="checkout-inner">
+        <div class="w">
+            <!-- <ol class="breadcrumb">
+                <li><a href="/list.html?cat_id=82">电视</a><span>&gt;</span></li>
+                <li><a href="/list.html?cat_id=92">4K电视</a><span>&gt;</span></li>
+                <li class="active">LED55X8S 55吋无边全面屏 超薄金属机身&nbsp;LED55X8S</li>
+            </ol> -->
+            <div class="page-header">
+                <h1 class="clearfix">订单确认 <small>Checkout </small></h1>
+
+            </div>
+            <form action="" class="checkout-container">
+                <div class="checkout-main">
+                    <div class="panel-heading">
+                        <h3>收货人信息</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="addressWrap">
+                            <div class="addressInfo">
+                                <span class="distribution">配送至:</span>
+                                <div class="addressInfoName">
+                                    <span class="cmb01">武汉</span>
+                                    <span class="cmb02">武汉</span>
+                                    <span class="cmb03">武汉</span>
+                                </div>
+                                <div class="addressChoose layui-icon">
+                                    <div class="address-cmbform">
+                                        <select class="form-control" id="cmbProvince" name="cmbProvince">请选择省份</select>
+                                        <select class="form-control" id="cmbCity" name="cmbCity">请选择市</select>
+                                        <select class="form-control" id="cmbArea" name="cmbArea">请选择区</select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row myDistribution ">
+                        <div data-flowindex="1" class="checkout-panel checkout-dlytype">
+                            <h3 class="panel-title checkout-h3">配送方式</h3>
+                            <ul class="list-group cl">
+                                <li class="list-group-item active clearfix bution-posi">
+                                    <img src="https://www.konka.com/themes/pc/konka/images/checkout-yes.png?veb06" class="checkout-yes type-yes">
+                                    <input type="radio" class="hide" checked="true" name="dlytype_id" value="3">
+                                    <span class="dlytype-name">快递</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <!-- <div class="row myDistribution">
+                        <div data-flowindex="2" class="checkout-panel checkout-payment">
+                            <h3 class="panel-title checkout-h3">支付方式</h3>
+                            <ul class="list-group cl ayment-group">
+                                <li data-appid="wxpay" class="list-group-item active cl wxpay_img">
+                                    <img src="https://www.konka.com/themes/pc/konka/images/checkout-yes.png?veb06" class="checkout-yes type-yes">
+                                    <input type="radio" class="hide" checked="" name="payapp_id" value="wxpay">
+                                    <span class="payapp-name">微信支付</span> -->
+                    <!-- <i  data-toggle="popover" class="glyphicon glyphicon-question-sign"></i> -->
+                    <!-- <p class="hide">
+                                        微信支付描述 </p> -->
+                    <!-- </li>
+                                <li data-appid="unionpay" class="list-group-item  cl unionpay_img">
+                                    <img src="https://www.konka.com/themes/pc/konka/images/checkout-yes.png?veb06" class="checkout-yes ">
+                                    <input type="radio" class="hide" name="payapp_id" value="unionpay">
+                                    <span class="payapp-name">在线支付</span> -->
+                    <!-- <i  data-toggle="popover" class="glyphicon glyphicon-question-sign"></i> -->
+                    <!-- <p class="hide">
+                                        中国银联 </p> -->
+                    <!-- </li>
+                                <li data-appid="alipay" class="list-group-item  cl alipay_img">
+                                    <img src="https://www.konka.com/themes/pc/konka/images/checkout-yes.png?veb06" class="checkout-yes ">
+                                    <input type="radio" class="hide" name="payapp_id" value="alipay">
+                                    <span class="payapp-name">支付宝</span> -->
+                    <!-- <i  data-toggle="popover" class="glyphicon glyphicon-question-sign"></i> -->
+                    <!-- <p class="hide">
+                                        支付宝支付描述 </p> -->
+                    <!-- </li>
+                            </ul>
+                        </div>
+                    </div> -->
+
+                    <table class="layui-table checkout-cart" lay-skin="line">
+                        <colgroup>
+                            <col width="534">
+                            <col width="178">
+                            <col width="178">
+                            <col>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th class="shangpin">商品描述</th>
+                                <th class="dangjia">单价</th>
+                                <th class="shuliang">数量</th>
+                                <th class="xiaoji">小计</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- <tr>
+                                <td class="cl">
+                                    <div class="d">
+                                        <a href="">
+                                            <img src="../images/list01_05.png" alt="">
+                                        </a>
+                                    </div>
+                                    <p>65P9 65吋全面屏金属机身4K超高清</p>
+                                    <p>65P9</p>
+                                    <p>K歌电视 前置音响 人工智能 二级能效</p>
+                                </td>
+                                <td>
+                                    ￥<span class="price-x"> 1099.99</span>
+                                </td>
+                                <td><span class="number-x"><b>×</b> 1</span></td>
+                                <td><span class="cmb">￥</span><span class="money-al">1099.99</span></td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+
+                    <!-- <div class="row myDistribution">
+                        <div class="checkout-invoice">
+                            <h3 class="panel-title checkout-h3">发票信息</h3>
+                            <div class="">
+                                <label style="display: none">
+                                        <input type="hidden" value="true" id="need_invoice" name="need_invoice">
+                                    </label>
+                                <div class="form-group" style="display:block; margin-bottom: 0;" data-showextends="#need_invoice|change|checked">
+                                    <div class="row addInvoice cl">
+                                        <label class="col-xs-1"><input type="radio" checked="checked" name="invoice_type" value="0">个人</label>
+                                        <div class="col-xs-3">
+                                            <input type="text" value="" name="invoice_title" placeholder="请输入个人信息">
+                                        </div>
+                                    </div>
+                                    <div class="row addInvoice cl">
+                                        <label class="col-xs-1"><input type="radio" name="invoice_type" value="1">公司</label>
+                                        <div class="col-xs-3">
+                                            <select name="invoice_id">
+                                                    <option>选择发票抬头</option>
+                                             </select>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <button type="button" data-toggle="modal" data-target="#myAddinvoice">添加发票抬头</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="checkout-calculate panel-default">
+                        <div class="row cl">
+                            <!-- <div class="col-xs-7">
+                                <h3 class="checkout-h3">订单备注</h3>
+                                <textarea name="memo" rows="2" class="form-control" placeholder="【订单备注】配送方式:快递、支付方式:微信公众号支付"></textarea>
+                            </div> -->
+                            <div class="col-xs-5 text-right">
+                                <dl class="dl-horizontal pull-right cl">
+                                    <!-- <dt>可得积分：</dt>
+                                    <dd><span data-bind="total/gain_score">3599</span>分</dd>
+                                    <dt>1件商品，总商品金额：</dt>
+                                    <dd>￥<span data-bind="total/cart_amount">3599.00</span></dd>
+
+                                    <dt>会员身份优惠：</dt>
+                                    <dd>-￥<span data-bind="total/member_discount_amount">0.00</span></dd>
+
+                                    <dt>促销活动优惠：</dt>
+                                    <dd>-￥<span data-bind="total/promotion_discount_amount">0.00</span></dd>
+
+
+                                    <dt>运费：</dt>
+                                    <dd>￥<span data-bind="total/cost_freight">0.00</span></dd> -->
+
+                                    <dt class="order-price">订单总价：</dt>
+                                    <dd class="order-red"><strong data-bind="total/order_total">￥3599.00</strong></dd>
+
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="checkout-footer">
+                        <div class="tijiao">
+                            <button class="dingdan layui-btn layui-btn-warm">提交订单</button>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div id='foot'></div>
+
+</body>
+<script src='../lib/layui/layui.js'></script>
+<script src='../lib/jquery-1.11.3.js'></script>
+<script src="../lib/cookie.js"></script>
+<script src='../lib/jsAddress.js'></script>
+<script src="../js/checkout.js"></script>
+
+</html>

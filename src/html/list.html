@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>列表页</title>
+    <link rel="stylesheet" href="../lib/layui/css/layui.css">
+    <!-- <link rel="stylesheet" href="../src/css/pc-reset.css"> -->
+    <link rel="stylesheet" href="../css/list.min.css">
+</head>
+
+<body>
+    <div id='head'></div>
+    <div class="list-container cl">
+        <div class="w">
+            <div class="glist-container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="../../index.html">首页</a>
+                    </li>
+                    <li class="active-list"> &gt;&nbsp;&nbsp; 电视</li>
+                </ol>
+                <div class="panel">
+                    <!-- <div class="panel-body">
+                        <dl class="cl">
+                            <dt>分类</dt>
+                            <dd>
+                                <ul class="list-line">
+                                    <li>
+                                        <a href="">4K电视</a>
+                                    </li>
+                                    <li>
+                                        <a href="">全面屏电视</a>
+                                    </li>
+                                    <li>
+                                        <a href="">超薄电视</a>
+                                    </li>
+                                    <li>
+                                        <a href="">普通电视</a>
+                                    </li>
+                                    <li>
+                                        <a href="">OLED电视</a>
+                                    </li>
+                                    <li>
+                                        <a href="">曲面电视</a>
+                                    </li>
+                                    <li>
+                                        <a href="">智能电视</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                            <dt>品牌</dt>
+                            <dd>
+                                <ul class="list-line">
+                                    <li>
+                                        <a href="" class="nolimit active">不限</a>
+                                    </li>
+                                    <li>
+                                        <a href="/list.html?cat_id=82&amp;brand_id=1">康佳（KONKA）</a>
+                                    </li>
+                                    <li>
+                                        <a href="">KKTV</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                            <dt>价格</dt>
+                            <dd>
+                                <ul class="list-line">
+                                    <li>
+                                        <a href="" class="nolimit active">不限</a>
+                                    </li>
+                                    <li>
+                                        <a href="/list.html?cat_id=82&amp;brand_id=1">599-999</a>
+                                    </li>
+                                    <li>
+                                        <a href="">1000-2999</a>
+                                    </li>
+                                    <li>
+                                        <a href="">3000-4999</a>
+                                    </li>
+                                    <li>
+                                        <a href="">5000-6999</a>
+                                    </li>
+                                    <li>
+                                        <a href="">7000-8999</a>
+                                    </li>
+                                    <li>
+                                        <a href="">9000-9999</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                            <dt>观看距离</dt>
+                            <dd>
+                                <ul class="list-line">
+                                    <li>
+                                        <a href="" class="nolimit active">不限</a>
+                                    </li>
+                                    <li>
+                                        <a href="/list.html?cat_id=82&amp;brand_id=1">2米以内</a>
+                                    </li>
+                                    <li>
+                                        <a href="">1.5-2.4米</a>
+                                    </li>
+                                    <li>
+                                        <a href="">1.6-3.1米</a>
+                                    </li>
+                                    <li>
+                                        <a href="">1.8-3.4米</a>
+                                    </li>
+                                    <li>
+                                        <a href="">2.4-4.2米</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                            <dt>屏幕尺寸</dt>
+                            <dd>
+                                <ul class="list-line">
+                                    <li>
+                                        <a href="" class="nolimit active">不限</a>
+                                    </li>
+                                    <li>
+                                        <a href="/list.html?cat_id=82&amp;brand_id=1">19-32英寸</a>
+                                    </li>
+                                    <li>
+                                        <a href="">39-43英寸</a>
+                                    </li>
+                                    <li>
+                                        <a href="">48-50英寸</a>
+                                    </li>
+                                    <li>
+                                        <a href="">55-58英寸</a>
+                                    </li>
+                                    <li>
+                                        <a href="">60-65英寸</a>
+                                    </li>
+                                    <li>
+                                        <a href="">70-75英寸</a>
+                                    </li>
+                                    <li>
+                                        <a href="">75英寸以上</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div> -->
+                </div>
+                <div class="goods-list">
+                    <!-- <div class="list-panel">
+                        <div class="list-heading">
+                            <div class="form-inline layui-tab">
+                                <div class="page-ye">
+                                    <div class="goodsnum-page">
+                                        <span class="current  red">1</span> /
+                                        <span class="total ">4</span>
+                                    </div>
+                                    <div class="page-change">
+                                        <i class="layui-btn rgud layui-btn-primary layui-btn-sm layui-icon"></i>
+                                        <i class="layui-btn rgud layui-btn-primary layui-btn-sm layui-icon"></i>
+                                    </div>
+                                </div>
+                                <ul class="layui_title_bt">
+                                    <li class="this_active">默认</li>
+                                    <li>价格</li>
+                                    <li>销量</li>
+                                    <li>好评</li>
+                                    <li>最新</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div> -->
+                    <ul class="order_by cl">
+                        <li id="lihe">玫瑰礼盒</li>
+                        <li id="xianhua">鲜花玫瑰</li>
+                        <li id="kj_price_asc">价格↑</li>
+                        <li id="kj_price_desc">价格↓</li>
+                    </ul>
+                    <!-- <input id='my_search' type="text" placeholder="搜索" value=""> -->
+                    <style>
+                        .order_by {
+                            background-color: #eee;
+                        }
+                        
+                        .order_by li {
+                            float: left;
+                            line-height: 50px;
+                            text-align: center;
+                            width: 100px;
+                        }
+                        
+                        li:hover {
+                            background-color: #fff;
+                        }
+                        
+                        .goods-list {
+                            position: relative;
+                        }
+                        /* #my_search {
+                            padding: 0 10px;
+                            width: 200px;
+                            height: 30px;
+                            position: absolute;
+                            top: 8px;
+                            right: 25px;
+                        } */
+                    </style>
+                    <!-- <hr> -->
+                    <!-- <div id="list" class="layui-container">
+                        <div class="layui-row">
+                            <div class="layui-col-md4 item">
+                                <p>商品名称</p>
+                                <p>商品价格</p>
+                                <p>商品描述</p>
+                            </div>
+                        </div>
+                        <div id="test1"></div>
+                    </div> -->
+
+
+                    <div class="container_fluids layui-container" id="list">
+                        <div class="rows layui-row cl">
+
+                            <div class="lyaui-row"></div>
+                            <div id='test8'></div>
+                            <!-- <div id='list' class="col_xs_8 layui-col-md4 item cl">
+                                <div class="sold-out">售罄</div>
+                                <div id="figure">
+                                    <img src="../images/list01_02.png" alt="">
+                                </div>
+                                <h4 class="text_uppercase ellipsis">50英寸新视域国品电视</h4>
+                                <div class="figure_title ellipsis">AI人工智能 /防蓝光模式</div>
+                                <p>￥1699.00
+                                    <span class="del">&nbsp;￥1999.00</span>
+                                </p>
+                                <div class="wrapper layui-btn-container">
+                                    <button type="button" class="btn_01 layui-btn ">加入购物车</button>
+                                    <button type="button" class="btn_02 layui-btn redgb">立即购买</button>
+                                </div>
+                            </div> -->
+
+
+                            <!--栅格-->
+                            <!-- <div class="layui-row layui-col-space10">
+                                <div class="layui-col-md4" style="background:fuchsia;">
+                                    1/3
+                                </div>
+                                <div class="layui-col-md4" style="background:fuchsia;">
+                                    1/3
+                                </div>
+                                <div class="layui-col-md4" style="background:fuchsia;">
+                                    1/3
+                                </div>
+                            </div> -->
+
+
+
+                            <!-- <div class="col_xs_8 cl">
+                                <div class="sold-out">售罄</div>
+                                <div id="figure">
+                                    <img src="../images/list01_01.png" alt="">
+                                </div>
+                                <h4 class="text_uppercase ellipsis">50英寸新视域国品电视</h4>
+                                <div class="figure_title ellipsis">AI人工智能 /防蓝光模式</div>
+                                <p>￥1699.00
+                                    <span class="price">&nbsp;￥1999.00</span>
+                                </p>
+                                <div class="wrapper layui-btn-container">
+                                    <button type="button" class="btn_01 layui-btn ">加入购物车</button>
+                                    <button type="button" class="btn_02 layui-btn redgb">立即购买</button>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div id="test1"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id='foot'></div>
+</body>
+<script src="../lib/layui/layui.js"></script>
+<script src='../lib/jquery-1.11.3.js'></script>
+<script src='../lib/cookie.js'></script>
+<script src="../js/list.js"></script>
+<script>
+    //注意：选项卡 依赖 element 模块，否则无法进行功能性操作
+    layui.use('element', function() {
+        var element = layui.element;
+    });
+</script>
+
+</html>

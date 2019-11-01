@@ -1,0 +1,79 @@
+.register {
+  width: 1200px;
+  height: 800px;
+  position: relative;
+  margin: auto;
+  z-index: 50; }
+  .register .w {
+    position: relative; }
+    .register .w .panel {
+      width: 450px;
+      height: 362px;
+      background-color: #fff;
+      position: absolute;
+      top: 104px;
+      right: 0;
+      border: 1px solid #f5f5f5; }
+      .register .w .panel .panel-heading {
+        height: 23px;
+        line-height: 23px;
+        padding: 10px 15px;
+        color: #333;
+        background-color: #f5f5f5;
+        border-color: #ddd; }
+        .register .w .panel .panel-heading .panel-heading-btn {
+          padding: 2px 5px;
+          height: 23px;
+          font-size: 12px;
+          -webkit-border-radius: 1px;
+                  border-radius: 1px;
+          color: #fff;
+          background-color: #c13e2c;
+          border-color: #ac3727;
+          float: right; }
+      .register .w .panel .panel-body {
+        margin-top: 15px; }
+        .register .w .panel .panel-body form .form-group {
+          width: 448px;
+          height: 34px;
+          margin-bottom: 15px; }
+          .register .w .panel .panel-body form .form-group .input_login_label {
+            float: left;
+            width: 112px;
+            height: 27px;
+            line-height: 27px;
+            text-align: center; }
+          .register .w .panel .panel-body form .form-group .input_login_div {
+            float: left;
+            border: 1px solid #ddd; }
+            .register .w .panel .panel-body form .form-group .input_login_div .submit_btn {
+              margin-left: 112px; }
+            .register .w .panel .panel-body form .form-group .input_login_div input {
+              width: 297px;
+              height: 22px;
+              padding: 6px 12px;
+              border: 0;
+              opacity: .7; }
+            .register .w .panel .panel-body form .form-group .input_login_div .checkbox {
+              margin-left: 112px; }
+              .register .w .panel .panel-body form .form-group .input_login_div .checkbox label .check_box {
+                width: 10px;
+                height: 10px;
+                padding-left: 15px; }
+            .register .w .panel .panel-body form .form-group .input_login_div #input_vcode {
+              width: 110px;
+              height: 22px; }
+          .register .w .panel .panel-body form .form-group .input_login_vd .local-vcode .input_login_vcode {
+            float: left;
+            background-color: #0ff;
+            width: 40px;
+            height: 34px;
+            margin-left: 20px;
+            text-align: center;
+            line-height: 34px; }
+          .register .w .panel .panel-body form .form-group .input_login_vd .local-vcode .sm_btn {
+            float: left;
+            height: 34px;
+            margin-left: 20px; }
+          .register .w .panel .panel-body form .form-group .ind {
+            border: 0; }

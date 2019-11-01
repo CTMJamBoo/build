@@ -1,0 +1,160 @@
+.kanj_list {
+  padding-top: 100px; }
+  .kanj_list .w .product .breadcrumb {
+    margin-bottom: 30px; }
+    .kanj_list .w .product .breadcrumb li {
+      display: inline-block;
+      font-size: 14px;
+      color: #333; }
+      .kanj_list .w .product .breadcrumb li span {
+        padding: 0 5px;
+        color: #ccc; }
+  .kanj_list .w .product .product_page {
+    height: 540px;
+    float: left;
+    background-color: #fff; }
+    .kanj_list .w .product .product_page .row #box {
+      float: left;
+      width: 540px;
+      position: relative;
+      margin-left: 50px;
+      border: 1px solid #b0b0b0; }
+    .kanj_list .w .product .product_page .row #top {
+      width: 540px;
+      height: 540px;
+      position: relative; }
+    .kanj_list .w .product .product_page .row #smallImg {
+      width: 540px;
+      height: 540px; }
+    .kanj_list .w .product .product_page .row #shadow {
+      position: absolute;
+      height: 180px;
+      width: 180px;
+      background-color: rgba(110, 110, 110, 0.1);
+      left: 0;
+      top: 0;
+      display: none; }
+    .kanj_list .w .product .product_page .row .updown {
+      float: left; }
+      .kanj_list .w .product .product_page .row .updown p {
+        text-align: center;
+        margin-top: 28px; }
+    .kanj_list .w .product .product_page .row #nav {
+      width: 74px;
+      overflow: hidden; }
+    .kanj_list .w .product .product_page .row #nav li {
+      margin-top: 10px;
+      width: 72px;
+      height: 72px;
+      border: #b0b0b0 1px solid; }
+    .kanj_list .w .product .product_page .row #nav li img {
+      width: 72px;
+      height: 72px; }
+    .kanj_list .w .product .product_page .row #bigShadow {
+      position: absolute;
+      height: 300px;
+      width: 300px;
+      left: 555px;
+      top: 0;
+      overflow: hidden;
+      display: none;
+      z-index: 10;
+      background: #fff;
+      -webkit-box-shadow: 0 0 10px #eee;
+              box-shadow: 0 0 10px #eee; }
+    .kanj_list .w .product .product_page .row #bigImg {
+      width: 900px;
+      height: 900px;
+      position: absolute;
+      left: 0;
+      top: 0; }
+    .kanj_list .w .product .product_page .row .col_xs_5 {
+      float: left;
+      padding-right: 15px;
+      padding-left: 15px;
+      position: relative; }
+      .kanj_list .w .product .product_page .row .col_xs_5 h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: black; }
+      .kanj_list .w .product .product_page .row .col_xs_5 .attr {
+        font-size: 14px;
+        color: #333; }
+      .kanj_list .w .product .product_page .row .col_xs_5 .price_availability_block {
+        line-height: 31px; }
+        .kanj_list .w .product .product_page .row .col_xs_5 .price_availability_block .price {
+          color: #ed1c24;
+          font-size: 24px; }
+          .kanj_list .w .product .product_page .row .col_xs_5 .price_availability_block .price span {
+            font-size: 14px;
+            text-decoration: line-through;
+            color: #b0b0b0; }
+        .kanj_list .w .product .product_page .row .col_xs_5 .price_availability_block .pruchase {
+          float: right;
+          height: 20px;
+          color: #767676; }
+          .kanj_list .w .product .product_page .row .col_xs_5 .price_availability_block .pruchase span {
+            font-size: 14px; }
+            .kanj_list .w .product .product_page .row .col_xs_5 .price_availability_block .pruchase span i {
+              margin-right: 5px; }
+      .kanj_list .w .product .product_page .row .col_xs_5 .addressWrap .addressInfo {
+        font-size: 14px;
+        color: #333; }
+        .kanj_list .w .product .product_page .row .col_xs_5 .addressWrap .addressInfo .addressInfoName {
+          margin: 0 10px;
+          display: inline-block; }
+          .kanj_list .w .product .product_page .row .col_xs_5 .addressWrap .addressInfo .addressInfoName span {
+            margin-right: 10px; }
+        .kanj_list .w .product .product_page .row .col_xs_5 .addressWrap .addressInfo .addressChoose {
+          display: inline-block; }
+        .kanj_list .w .product .product_page .row .col_xs_5 .addressWrap .addressInfo .address-cmbform {
+          position: absolute;
+          top: 110px;
+          right: 100px; }
+          .kanj_list .w .product .product_page .row .col_xs_5 .addressWrap .addressInfo .address-cmbform .form-control {
+            width: 100px;
+            height: 32px;
+            padding: 5px 10px;
+            border: 1px solid #eee;
+            -webkit-border-radius: 2px;
+                    border-radius: 2px; }
+        .kanj_list .w .product .product_page .row .col_xs_5 .addressWrap .addressInfo .myStock {
+          margin-left: 10px;
+          font-weight: 600; }
+      .kanj_list .w .product .product_page .row .col_xs_5 .product_page_cart {
+        margin-top: 40px; }
+        .kanj_list .w .product .product_page .row .col_xs_5 .product_page_cart .product-quantity {
+          width: 170px;
+          height: 25px; }
+          .kanj_list .w .product .product_page .row .col_xs_5 .product_page_cart .product-quantity .dl-horizontal {
+            float: left;
+            width: 45px; }
+            .kanj_list .w .product .product_page .row .col_xs_5 .product_page_cart .product-quantity .dl-horizontal dt {
+              color: #333;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 25px; }
+          .kanj_list .w .product .product_page .row .col_xs_5 .product_page_cart .product-quantity .spinner-buttons {
+            float: left; }
+            .kanj_list .w .product .product_page .row .col_xs_5 .product_page_cart .product-quantity .spinner-buttons .layui-btn {
+              width: 25px;
+              height: 25px;
+              line-height: 25px; }
+          .kanj_list .w .product .product_page .row .col_xs_5 .product_page_cart .product-quantity .spinner-input {
+            float: left;
+            width: 66px;
+            height: 21px;
+            text-align: center; }
+        .kanj_list .w .product .product_page .row .col_xs_5 .product_page_cart .row {
+          margin-top: 30px;
+          padding: 15px 0; }
+          .kanj_list .w .product .product_page .row .col_xs_5 .product_page_cart .row .buy {
+            width: 190px;
+            height: 40px;
+            background-color: red; }
+            .kanj_list .w .product .product_page .row .col_xs_5 .product_page_cart .row .buy:hover {
+              color: #fff !important; }
+          .kanj_list .w .product .product_page .row .col_xs_5 .product_page_cart .row .addcart {
+            width: 190px;
+            height: 40px; }

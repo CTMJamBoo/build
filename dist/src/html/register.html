@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="../lib/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/register.min.css">
+</head>
+
+<body>
+    <div id="head"></div>
+    <div class='register'>
+
+        <div class='w cl'>
+            <img src="../images/list01_03.png" alt="">
+            <div class="panel">
+                <div class="panel-heading cl">注册成为会员 <a class="panel-heading-btn" href="./login.html">立即登录>></a></div>
+                <div class="panel-body">
+                    <form action="javascript:;">
+                        <div class='form-group cl'>
+                            <label class="input_login_label" for="">登录账号<span class="text-danger">*</span>
+                            </label>
+                            <div class="input_login_div">
+                                <input id='input_login_name' type="text" placeholder="手机号/用户名/邮箱">
+
+                            </div>
+                            <div id='username_span' style='display: none;'>222</div>
+                        </div>
+                        <div class='form-group'>
+                            <label class="input_login_label" for="">登录密码<span class="text-danger">*</span>
+                            </label>
+                            <div class="input_login_div">
+                                <input id='input_login_password' type="password" placeholder="登录密码">
+
+                            </div>
+                            <div id='password_span' style='display: none;'>222</div>
+                        </div>
+                        <div class='form-group'>
+                            <label class="input_login_label" for="">确认密码<span class="text-danger">*</span>
+                            </label>
+                            <div class="input_login_div">
+                                <input id='input_pwd_confirm' type="password" placeholder="再次输入登录密码">
+
+                            </div>
+                            <div id='confirm_span' style='display: none;'>222</div>
+                        </div>
+                        <div class='form-group'>
+                            <label class="input_login_label" for="">验证码<span class="text-danger">*</span>
+                            </label>
+                            <div class="input_login_div">
+                                <input type="text" id="input_vcode" placeholder="验证码">
+
+                            </div>
+                            <div id='vcode_span' style='display: none;'>222</div>
+                            <div class="input_login_vd">
+                                <div class="local-vcode cl">
+                                    <div class='input_login_vcode'></div>
+                                    <button type="button" class="sm_btn  layui-btn layui-btn-primary">更换验证码</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='form-group'>
+                            <div class="input_login_div ind">
+                                <div class='checkbox'>
+                                    <label for="">
+                                        <input class='check_box' type="checkbox">同意
+                                    </label>
+                                    <div id='check_span' style='display: none;'>222</div>
+                                    <a href="">《会员注册条款》</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='form-group'>
+                            <div class="input_login_div ind">
+                                <div class='submit_btn layui-btn layui-btn-warm'>提交</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="foot"></div>
+</body>
+
+<script src='../lib/jquery-1.11.3.js'></script>
+<script src='../lib/layui/layui.js'></script>
+<script src='../lib/cookie.js'></script>
+<script src='../js/register.js'></script>
+<script>
+</script>
+
+</html>

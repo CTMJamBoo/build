@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="./src/lib/layui/css/layui.css">
+    <!-- <link rel="stylesheet" href="./src/css/pc-reset.css"> -->
+    <link rel="stylesheet" href="./src/css/index.min.css">
+
+    <link rel="stylesheet" href="./src/css/pc-reset.min.css">
+    <link rel="stylesheet" href="./src/css/header.min.css">
+    <style>
+        /* #my_search {
+            height: 40px;
+            width: 150px;
+            position: fixed;
+            top: 90px;
+            right: 62px;
+            background-color: #f0f;
+            z-index: 100;
+        } */
+    </style>
+</head>
+
+<body>
+
+
+
+    <!-- <body> -->
+    <div class='header_nav'>
+
+        <header class='site_header_relative cl'>
+            <div class='w '>
+                <div class="topbar_nav">
+                    <a target="_blank" href="">康佳新闻</a>
+                    <span class="sep">|</span>
+                    <a target="_blank" href="">加入康佳</a>
+                    <span class="sep">|</span>
+                    <a target="_blank" href="">校园招聘</a>
+                    <span class="sep">|</span>
+                    <a target="_blank" href="">康佳社区</a>
+                    <span class="sep">|</span>
+                    <a target="_blank" href="">大宗采购</a>
+                    <span class="sep">|</span>
+                    <a target="_blank" href="">积分商城</a>
+                    <span class="sep">|</span>
+                </div>
+                <div class="topbar_cart">
+                    <a id='kj_cart' class="" href="../html/cart.html?">
+                        <img src="./src/images/top-header-cart.png" alt="">购物车(<span class='sp_num'>0</span>)
+                    </a>
+                </div>
+                <div class="topbar_info">
+                    <a class='sigup_in' href="./src/html/login.html">登录</a>
+                    <span>|</span>
+                    <a class='sigup_btn' href="./src/html/register.html">注册</a>
+                </div>
+                <div class="tobar_logined">
+                    <a href="" class="kanka_user">用户名</a>
+                    <span>|</span>
+                    <a href="" class="kanka_esc">退出</a>
+                </div>
+        </header>
+        <nav class="site__nav" id='nav_top'>
+            <div class='w'>
+                <div class='row cl'>
+                    <div class='col_xs_2'>
+                        <a href="">
+                            <img src="./src/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class='col_xs_1'>
+                        <a href="">首页</a>
+                    </div>
+                    <div class='col_xs_1'>
+                        <a class='list_zhubao' href="./src/html/list.html">珠宝</a>
+                        <div class='item'>
+                            <div class='item_children'>
+                                <div class='container_fluid cl'>
+                                    <div class="col_xs_2">
+                                        <div class="figure">
+                                            <a href="../html/detail.html">
+                                                <img src="./src/images/list01_05.png" alt="">
+                                            </a>
+                                            <h4 class="text-uppercase">E75U</h4>
+                                            <div class="figure-title">金属智能</div>
+                                            <p>￥9999.99 <span class="del">&nbsp;￥10099.99</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='col_xs_1'>
+                        <a href="../html/list.html">冰箱</a>
+                    </div>
+                    <div class='col_xs_1'>
+                        <a href="../html/list.html">洗衣机</a>
+                    </div>
+                    <div class='col_xs_1'>
+                        <a href="../html/list.html">生活电器</a>
+                    </div>
+                    <div class='col_xs_1'>
+                        <a href="../html/list.html">厨卫电器</a>
+                    </div>
+                    <div class='col_xs_1'>
+                        <a href="">智能硬件</a>
+                    </div>
+                    <div class='col_xs_1'>
+                        <a href="">K迷优品</a>
+                    </div>
+                    <div class='col_xs_1'>
+                        <a href="">大宗采购</a>
+                    </div>
+                    <div class='col_xs_1'>
+                        <a href="">服务</a>
+                    </div>
+                    <div class='col_xs_2'>
+                        <a href="" class="Magnifier iconImg">
+                            <img src="./src/images/top-header-cart.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </div>
+
+
+
+
+    <!-- <input id='my_search' type="text" placeholder="搜索" value=""> -->
+
+    <div id="head"></div>
+    <div class="category">
+        <div class="layui-carousel" id="test1">
+            <div carousel-item>
+                <div>
+                    <img src="./src/images/lun_01.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./src/images/lun_02.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./src/images/lun_03.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./src/images/lun_04.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./src/images/lun_01.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <ul class="site_category_list">
+            <li class="category_item cl">
+                <a class="title" title='电视' href="./src/html/list.html">电视</a>
+                <i class="layui-icon layui-icon-right"></i>
+                <div class="children cl ">
+                    <div class="children_wrapper">
+                        <ul class="children_list clearfix">
+                            <li>
+                                <a href="./src/html/list.html" title="OLED电视" class="link" target="_blank" rel="nofollow noopener noreferrer">
+                                    <img class="layz banW" data-original="https://www.konka.com/public/images/57/cc/5e/0a1371ca33a13dc7555163282047cf6496030464.png?23947_OW40_OH40" width="40" height="40" src="https://www.konka.com/public/images/57/cc/5e/0a1371ca33a13dc7555163282047cf6496030464.png?23947_OW40_OH40"
+                                        style="display: inline;">
+                                    <span>OLED电视</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="list.html?cat_id=141" title="全面屏电视" class="link" target="_blank" rel="nofollow noopener noreferrer">
+                                    <img class="layz banW" data-original="https://www.konka.com/public/images/61/71/23/e0349ba8566c53738239db25211deb8c880bd55c.png?23951_OW40_OH40" width="40" height="40" src="https://www.konka.com/public/images/61/71/23/e0349ba8566c53738239db25211deb8c880bd55c.png?23951_OW40_OH40"
+                                        style="display: inline;">
+                                    <span>全面屏电视</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="list.html?cat_id=87" title="曲面电视" class="link" target="_blank" rel="nofollow noopener noreferrer">
+                                    <img class="layz banW" data-original="https://www.konka.com/public/images/38/fe/3c/8504496d2113677748220f487ba9ad3417edae37.png?23955_OW40_OH40" width="40" height="40" src="https://www.konka.com/public/images/38/fe/3c/8504496d2113677748220f487ba9ad3417edae37.png?23955_OW40_OH40"
+                                        style="display: inline;">
+                                    <span>曲面电视</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="list.html?cat_id=92" title="4K超清电视" class="link" target="_blank" rel="nofollow noopener noreferrer">
+                                    <img class="layz banW" data-original="https://www.konka.com/public/images/85/9f/29/485772d0d83494232fb8ff9d3ace6699892d14b1.png?23959_OW40_OH40" width="40" height="40" src="https://www.konka.com/public/images/85/9f/29/485772d0d83494232fb8ff9d3ace6699892d14b1.png?23959_OW40_OH40"
+                                        style="display: inline;">
+                                    <span>4K超清电视</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="list.html?cat_id=142" title="超薄电视" class="link" target="_blank" rel="nofollow noopener noreferrer">
+                                    <img class="layz banW" data-original="https://www.konka.com/public/images/32/55/03/aa0f0f59007e0ae5cb8df3bcef200a8dccebb5fe.png?23962_OW40_OH40" width="40" height="40" src="https://www.konka.com/public/images/32/55/03/aa0f0f59007e0ae5cb8df3bcef200a8dccebb5fe.png?23962_OW40_OH40"
+                                        style="display: inline;">
+                                    <span>超薄电视</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="list.html?cat_id=89" title="智能电视" class="link" target="_blank" rel="nofollow noopener noreferrer">
+                                    <img class="layz banW" data-original="https://www.konka.com/public/images/ab/0d/7f/06227912b46472e9d9a58f721d9cceed0dab9ce4.png?23966_OW40_OH40" width="40" height="40" src="https://www.konka.com/public/images/ab/0d/7f/06227912b46472e9d9a58f721d9cceed0dab9ce4.png?23966_OW40_OH40"
+                                        style="display: inline;">
+                                    <span>智能电视</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="children_list clearfix">
+                            <li>
+                                <a href="list.html?cat_id=172" title="普通电视" class="link" target="_blank" rel="nofollow noopener noreferrer">
+                                    <img class="layz banW" data-original="https://www.konka.com/public/images/5d/9d/5f/3b6e38bcf8aef577d593f186ee8416be5135a2c6.png?24476_OW40_OH40" width="40" height="40" src="https://www.konka.com/public/images/5d/9d/5f/3b6e38bcf8aef577d593f186ee8416be5135a2c6.png?24476_OW40_OH40"
+                                        style="display: inline;">
+                                    <span>普通电视</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="list.html?cat_id=112" title="商用电视" class="link" target="_blank" rel="nofollow noopener noreferrer">
+                                    <img class="layz banW" data-original="https://www.konka.com/public/images/62/b9/38/ab73a4161c2bdd26c57a63f9e9c572ec02ca6009.png?24480_OW40_OH40" width="40" height="40" src="https://www.konka.com/public/images/62/b9/38/ab73a4161c2bdd26c57a63f9e9c572ec02ca6009.png?24480_OW40_OH40"
+                                        style="display: inline;">
+                                    <span>商用电视</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="category_item cl">
+                <a class="title" title='冰箱' href="">冰箱</a>
+                <i class="layui-icon layui-icon-right"></i>
+            </li>
+            <li class="category_item cl">
+                <a class="title" title='冰箱' href="">冰箱</a>
+                <i class="layui-icon layui-icon-right"></i>
+            </li>
+            <li class="category_item cl">
+                <a class="title" title='冰箱' href="">冰箱</a>
+                <i class="layui-icon layui-icon-right"></i>
+            </li>
+            <li class="category_item cl">
+                <a class="title" title='冰箱' href="">冰箱</a>
+                <i class="layui-icon layui-icon-right"></i>
+            </li>
+            <li class="category_item cl">
+                <a class="title" title='冰箱' href="">冰箱</a>
+                <i class="layui-icon layui-icon-right"></i>
+            </li>
+            <li class="category_item cl">
+                <a class="title" title='冰箱' href="">冰箱</a>
+                <i class="layui-icon layui-icon-right"></i>
+            </li>
+            <li class="category_item cl">
+                <a class="title" title='冰箱' href="">冰箱</a>
+                <i class="layui-icon layui-icon-right"></i>
+            </li>
+            <li class="category_item cl">
+                <a class="title" title='冰箱' href="">冰箱</a>
+                <i class="layui-icon layui-icon-right"></i>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+    <div class="home_selling">
+        <div class="w cl">
+            <div class='row_xs'>
+                <div class="col_xs_3">
+                    <div class="row cl">
+                        <div class="col_xs_2">
+                            <a href="integralmall.html"><img src="https://www.konka.com/public/images/60/77/bd/879b0d2d303fa098c09722333d674ab8eb474163.png?01666_OW35_OH35">
+                                <p>积分商城</p>
+                            </a>
+                        </div>
+                        <div class="col_xs_2">
+                            <a href="adjustprices.html"><img src="https://www.konka.com/public/images/34/22/87/f1ae47f1f400e292c73f6c7915ce1564b48a58fa.png?00777_OW35_OH35">
+                                <p>限时抢购</p>
+                            </a>
+                        </div>
+                        <div class="col_xs_2">
+                            <a href="couponactivity-1.html"><img src="https://www.konka.com/public/images/25/a8/bb/5a17fefa345f71565d007d087749eda0c6cdaac8.png?01073_OW35_OH35">
+                                <p>领券中心</p>
+                            </a>
+                        </div>
+                        <div class="col_xs_2">
+                            <a href="http://www.konka.com/news.html"><img src="https://www.konka.com/public/images/79/19/c6/16f583ac5b90342723faba7cbec8a8c053d10497.png?02617_OW35_OH35">
+                                <p>康佳新闻</p>
+                            </a>
+                        </div>
+                        <div class="col_xs_2">
+                            <a href="purchase.html"><img src="https://www.konka.com/public/images/12/40/10/a3466eb8964286d39dac6edc29a0ccaef20f63aa.png?02328_OW30_OH30">
+                                <p>大宗采购</p>
+                            </a>
+                        </div>
+                        <div class="col_xs_2">
+                            <a href="http://sc.hotjob.cn/wt/konka/web/index"><img src="https://www.konka.com/public/images/67/50/e9/4059ebaa083a48f4a698394c642e4aff9c63b531.png?03436_OW35_OH35">
+                                <p>加入康佳</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col_xs_3">
+                    <a href="https://www.konka.com/couponactivity-1.html" title="" target="_blank">
+                        <img class="layz" data-original="https://www.konka.com/public/images/dd/63/b3/e076d0f6dd4721a467bb30dce4040695880a1f55.jpg?47829_OW280_OH180" src="https://www.konka.com/public/images/dd/63/b3/e076d0f6dd4721a467bb30dce4040695880a1f55.jpg?47829_OW280_OH180">
+
+                    </a>
+                </div>
+                <div class="col_xs_3">
+                    <a href="https://www.konka.com/KF-UW1(CD).html" title="" target="_blank">
+                        <img class="layz" data-original="https://www.konka.com/public/images/cc/82/93/b0821dfed6226bc9bad8cdfe6436365849d62308.jpg?46924_OW280_OH180" src="https://www.konka.com/public/images/cc/82/93/b0821dfed6226bc9bad8cdfe6436365849d62308.jpg?46924_OW280_OH180">
+                    </a>
+                </div>
+                <div class="col_xs_3">
+                    <a href="https://www.konka.com/KGKZ-3523.html" title="" target="_blank">
+                        <img class="layz" data-original="https://www.konka.com/public/images/49/2b/03/abc96d6dcf716ea63f4fea7b58ab1a5a89cbf845.jpg?63998_OW280_OH180" src="https://www.konka.com/public/images/49/2b/03/abc96d6dcf716ea63f4fea7b58ab1a5a89cbf845.jpg?63998_OW280_OH180">
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- 明星产品 -->
+            <div class="home_star">
+                <div class="cart_top">
+                    <input id='my_search' type="text" placeholder="搜索" value="">
+                    <style>
+                        .cart_top {
+                            position: relative;
+                        }
+                        
+                        #my_search {
+                            padding: 0 10px;
+                            width: 200px;
+                            height: 30px;
+                            position: absolute;
+                            top: 8px;
+                            right: 25px;
+                        }
+                    </style>
+                    <h3>
+                        <img src="https://www.konka.com/public/images/43/ab/a1/bf574f9eeaa0371ea1f625627f9cc03e72b2a806.png?55694_OW38_OH30">
+                        <a href="" title="明星产品" target="_blank">明星产品</a>
+                    </h3>
+                    <!-- laypage.render({ elem: 'demo6' ,count: 50 ,layout: ['prev', 'next'] ,jump: function(obj, first){ if(!first){ layer.msg('第 '+ obj.curr +' 页'); } } }); -->
+                    <div class="more">
+                        <div class="arrow arr-left">
+                            <span class="glyphicon glyphicon-menu-left"></span>
+                        </div>
+                        <div class="arrow arr-right">
+                            <span class="glyphicon glyphicon-menu-right"></span>
+                        </div>
+                    </div>
+                    <a href="./html/detail.html"></a>
+                </div>
+                <div class="container_fluid star_rolling">
+                    <div class="star_row cl">
+                        <!-- <div class="col_xs_8">
+                            <div id="figure">
+                                <img src="../images/list01_01.png" alt="">
+                            </div>
+                            <h4 class="text_uppercase ellipsis">50英寸新视域国品电视</h4>
+                            <div class="figure_title ellipsis">AI人工智能 /防蓝光模式</div>
+                            <p>￥1699.00
+                                <span class="del">&nbsp;￥1999.00</span>
+                            </p>
+                        </div> -->
+                        <!-- <div class="col_xs_8">
+                            <div id="figure">
+                                <img src="../images/list01_02.png" alt="">
+                            </div>
+                            <h4 class="text_uppercase ellipsis">50英寸新视域国品电视</h4>
+                            <div class="figure_title ellipsis">AI人工智能 /防蓝光模式</div>
+                            <p>￥1699.00
+                                <span class="del">&nbsp;￥1999.00</span>
+                            </p>
+                        </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 电视 -->
+    <div class="televisions" id='television'>
+        <div class="w">
+            <div class="cate_top">
+                <h3>
+                    <img src="https://www.konka.com/public/images/e4/ff/69/c83d470d54d6effc118b77b9ee913e19288cb98c.png?55699_OW38_OH30">
+                    <a href="list.html?cat_id=82" title="电视" target="_blank">电视</a>
+                </h3>
+                <div class="more">
+                    <ul class="more_ul">
+                        <li>
+                            <a href="list.html?cat_id=86" title="OLED" target="_blank">OLED</a><span>/</span></li>
+                        <li>
+                            <a href="list.html?cat_id=87" title=" 曲面" target="_blank"> 曲面</a><span>/</span></li>
+                        <li>
+                            <a href="list.html?cat_id=92" title="4K" target="_blank">4K</a><span>/</span></li>
+                        <li>
+                            <a href="list.html?cat_id=89" title="智能" target="_blank">智能</a><span>/</span></li>
+                        <li>
+                            <a href="list.html?cat_id=141" title="全面屏" target="_blank">全面屏</a><span>/</span></li>
+                        <li>
+                            <a href="list.html?cat_id=82" title="更多>>" target="_blank" style="color: rgb(255, 91, 87);">更多&gt;&gt;</a><span> </span></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div id="carousel">
+                <div id="item">
+                    <a id='banner' href="">
+                        <img style="height:370px;width:100%;" src="./src/images/banner_01.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+
+
+
+            <div class="container_fluids">
+                <div class="row cl">
+                    <div class="col_xs_8">
+                        <div id="figure">
+                            <img src="./src/images/list01_03.png" alt="">
+                        </div>
+                        <h4 class="text_uppercase ellipsis">50英寸新视域国品电视</h4>
+                        <div class="figure_title ellipsis">AI人工智能 /防蓝光模式</div>
+                        <p>￥1699.00
+                            <span class="del">&nbsp;￥1999.00</span>
+                        </p>
+                        <div class="wrapper text-left">
+                            <p class="satis_show">非常好的一款智能电视，从外观到内在都特别喜欢，从康佳的模拟电视到智能电视，我已经用过三台了，对康佳电视情有独钟，还会一如既往的支持！！！</p>
+                            <div class="text_warning satisfaction"></div>
+                        </div>
+                    </div>
+                    <div class="col_xs_8">
+                        <div id="figure">
+                            <img src="./src/images/list01_02.png" alt="">
+                        </div>
+                        <h4 class="text_uppercase ellipsis">50英寸新视域国品电视</h4>
+                        <div class="figure_title ellipsis">AI人工智能 /防蓝光模式</div>
+                        <p>￥1699.00
+                            <span class="price">&nbsp;￥1999.00</span>
+                        </p>
+                        <div class="wrapper text-left">
+                            <p class="satis_show">非常好的一款智能电视，从外观到内在都特别喜欢，从康佳的模拟电视到智能电视，我已经用过三台了，对康佳电视情有独钟，还会一如既往的支持！！！</p>
+                            <div class="text_warning satisfaction"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 冰箱 -->
+    <!-- 洗衣机 -->
+    <!-- 生活电器 -->
+    <!-- 厨卫电器 -->
+    <!-- 智能硬件 -->
+    <!-- 智能家居 -->
+    <!-- K迷优品 -->
+
+
+
+    <!-- //康佳新闻 -->
+    <div class="kanka">
+        <div class="new">
+            <div class="w">
+                <div class="cate_top">
+                    <h3>
+                        <img src="https://www.konka.com/public/images/0a/40/c4/0fe03f221c3286e4c516000850632bd6310aebe7.png?21671_OW38_OH36">
+                        <a href="n-3-alist.html" title="康佳新闻" target="_blank">康佳新闻</a>
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col_xs_3">
+                        <a href="https://www.konka.com/p-465.html" title="康佳持续赋能品牌年轻化，花式玩转品牌营销">
+                            <img src="https://www.konka.com/public/images/25/a5/ea/e41bec047780e73ac562396448854aed1c7455f1.jpg?48621_OW900_OH600">
+                            <h4 class="tle">康佳持续赋能品牌年轻化，花式玩转品牌营销</h4>
+                            <p class="introduce">在国内消费升级、消费群体年轻化的大趋势下，近年来集团一直致力于将“年轻化”进行到底，不断焕发品牌青春活力。 2019年，集团通过不同的创意营销新玩法，搭建起品牌与年轻人的沟通桥梁，持续赋能品牌年轻化。今年4月，正式签约优质偶像鹿晗成为康佳电视代言人，在“走进年轻人、塑造品牌共鸣”上迈出了重要一步；短短4个月后，又于8月开展大型品牌线下粉丝活动，进一步开拓品牌年轻化营销的新局面。</p>
+                            <span class="reading">查看详情</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 康佳社区 -->
+
+
+    <!-- 锚点 -->
+    <div id="anchor">
+        <div id="container_fluid">
+            <div>
+                <a href="#star"><span>明星产品</span></a>
+
+            </div>
+            <div>
+                <a href="#television"><span>电视</span></a>
+
+            </div>
+            <div>
+                <a href="#Refrigerator"><span>冰箱</span></a>
+
+            </div>
+            <div>
+                <a href="#washing"><span>洗衣机</span></a>
+
+            </div>
+            <div>
+                <a href="#appliances"><span>生活电器</span></a>
+
+            </div>
+            <div>
+                <a href="#iphone"><span>厨卫电器</span></a>
+
+            </div>
+            <div>
+                <a href="#Hardware"><span>智能硬件</span></a>
+
+            </div>
+            <div>
+                <a href="#IOT"><span>智能家居</span></a>
+
+            </div>
+            <div>
+                <a href="#parts"><span>K迷优品</span></a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id='foot'></div>
+</body>
+
+
+<!-- 条目中可以是任意内容，如：<img src=""> -->
+
+<script src="./src/lib/layui/layui.js"></script>
+<script>
+    layui.use('carousel', function() {
+        var carousel = layui.carousel;
+        //建造实例
+        carousel.render({
+            elem: '#test1',
+            width: '100%', //设置容器宽度
+            height: '500px',
+            arrow: 'always' //始终显示箭头
+                //,anim: 'updown' //切换动画方式
+        });
+    });
+</script>
+<script src='./src/lib/jquery-1.11.3.js'></script>
+<script src='./src/lib/cookie.js'></script>
+<script src='./src/js/index.js'></script>
+
+<script src="./src/js/header.js"></script>
+
+</html>
